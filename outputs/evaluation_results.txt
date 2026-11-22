@@ -1,0 +1,36 @@
+LOAN APPROVAL PREDICTION - EVALUATION
+=============================================
+
+Dataset Information
+Test samples: 123
+
+Classification Metrics (Threshold = 0.5)
+Accuracy: 0.8617886178861789
+Precision: 0.84
+Recall: 0.9882352941176471
+Specificity: 0.5789473684210527
+F1_Score: 0.9081081081081082
+TP: 84
+FP: 16
+FN: 1
+TN: 22
+ROC-AUC: 0.8523
+Intercept: 0.173742
+
+Classification Report:
+              precision    recall  f1-score   support
+
+    Rejected     0.9565    0.5789    0.7213        38
+    Approved     0.8400    0.9882    0.9081        85
+
+    accuracy                         0.8618       123
+   macro avg     0.8983    0.7836    0.8147       123
+weighted avg     0.8760    0.8618    0.8504       123
+
+
+Recommended Exploratory Threshold: 0.3
+Recommendation is based on the highest F1 among the three tested thresholds on this test set. Independent validation is needed before deployment.
+
+Example Prediction:
+Approval Probability: 0.0544
+Predicted Status: Rejected

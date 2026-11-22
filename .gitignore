@@ -16,3 +16,7 @@ data/processed/loan_processed.csv
 *.metadata.json
 
 *.metadata.json
+
+# Jupyter temporary checkpoint files
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/

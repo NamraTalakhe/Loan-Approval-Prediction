@@ -1,0 +1,2 @@
+Gender,Married,Dependents,Education,Self_Employed,ApplicantIncome,CoapplicantIncome,LoanAmount,Loan_Amount_Term,Credit_History,Property_Area,Approval_Probability,Predicted_Status,Decision_Threshold
+Male,No,0,Graduate,No,6277,0.0,118.0,360.0,0.0,Rural,0.05435926772436742,Rejected,0.3

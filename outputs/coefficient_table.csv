@@ -1,0 +1,21 @@
+Feature,Coefficient,Interpretation
+cat__Gender_Female,0.17555549525707664,Increases log-odds of approval
+cat__Gender_Male,-0.0018131891513934453,Decreases log-odds of approval
+cat__Married_No,-0.19008848409188303,Decreases log-odds of approval
+cat__Married_Yes,0.36383079019757697,Increases log-odds of approval
+cat__Dependents_0,-0.020369408690121337,Decreases log-odds of approval
+cat__Dependents_1,-0.3426326210285516,Decreases log-odds of approval
+cat__Dependents_2,0.3613371101964005,Increases log-odds of approval
+cat__Dependents_3+,0.1754072256279607,Increases log-odds of approval
+cat__Education_Graduate,0.28144895591714886,Increases log-odds of approval
+cat__Education_Not Graduate,-0.10770664981146662,Decreases log-odds of approval
+cat__Self_Employed_No,0.1988208988814397,Increases log-odds of approval
+cat__Self_Employed_Yes,-0.025078592775762753,Decreases log-odds of approval
+cat__Property_Area_Rural,-0.25318267083936946,Decreases log-odds of approval
+cat__Property_Area_Semiurban,0.5219148302280876,Increases log-odds of approval
+cat__Property_Area_Urban,-0.0949898532830299,Decreases log-odds of approval
+num__ApplicantIncome,0.011932102171675467,Increases log-odds of approval
+num__CoapplicantIncome,-0.14922141907558426,Decreases log-odds of approval
+num__LoanAmount,-0.0421319005128427,Decreases log-odds of approval
+num__Loan_Amount_Term,-0.018316378589046035,Decreases log-odds of approval
+num__Credit_History,1.2478741626829464,Increases log-odds of approval
